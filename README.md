@@ -18,7 +18,8 @@
 
 # Teniendo en una variable el nombre de una persona, contar la longitud en caracterres del nombre y mostrarlo en pantalla
 contador=0
-for i in "Hola 4B":
+nombre="Hola 4B"
+for i in nombre:
   contador = contador + 1
 print (contador)
 ```
