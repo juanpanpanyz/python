@@ -20,7 +20,7 @@
 contador=0
 for i in "Hola 4B":
   contador = contador + 1
-  print (contador)
+print (contador)
 ```
 
 ## **Segundo Ejercicio**
