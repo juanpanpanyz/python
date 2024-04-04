@@ -28,11 +28,11 @@ print (contador)
 
 ```python
 # Dados los enteros e,k,n ingresados por el usuario mostrar por pantalla todos los valores enteros entre e y k (inclusive) que sean divisible por n
-e:int= int(input("Ingrese un numero entero:"))
+l:int= int(input("Ingrese un numero entero:"))
 k:int= int(input("Ingrese otro numero entero:"))
 n:int= int(input("Ingrese el ultimo numero entero:"))
 j:str
-for j in range(e, k + 1):
+for j in range(l, k + 1):
     if j % n == 0:
       print(i)
 ```
