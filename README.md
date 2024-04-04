@@ -26,47 +26,15 @@ print (contador)
 
 ## **Segundo Ejercicio**
 
-```c#
-using System;
-
-class Program {
-  public static void Main (string[] args) {
-    int num1 = 0; int num2 = 0; // variables de los numeros
-
-    Console.WriteLine("Calculadora en c#"); // Textito xq pinto jaja
-
-    Console.WriteLine("Ingresa un numero y apreta Enter"); // el usuario ingresa un numero
-    num1 = Convert.ToInt32(Console.ReadLine()); // el programa guarda ese numero
-
-    Console.WriteLine("Ingresa otro numero y apreta Enter"); // el usuario ingresa un numero
-    num2 = Convert.ToInt32(Console.ReadLine()); // el programa guarda ese numero
-
-    Console.WriteLine("Elegí una de las siguientes opciones:"); // el usuario elige
-    Console.WriteLine("\ts - Suma"); // suma
-    Console.WriteLine("\tr - Resta"); // resta
-    Console.WriteLine("\tm - Multiplicacion"); // multiplica
-    Console.WriteLine("\td - Division"); // divide
-    Console.Write("¿Tu eleccion? "); // el usuario entra una de las iniciales de la operación que quiere hacer
-
-    switch (Console.ReadLine()) // Eze canay nos lo enseño el año pasado jajsjaj
-    {
-        case "s":
-            Console.WriteLine($"Tu resultado: {num1} + {num2} = " + (num1 + num2)); // el programa suma
-            break;
-        case "r":
-            Console.WriteLine($"Tu resultado: {num1} - {num2} = " + (num1 - num2)); // el programa resta
-            break;
-        case "m":
-            Console.WriteLine($"Tu resultado: {num1} * {num2} = " + (num1 * num2));  // el programa multiplica
-            break;
-        case "d":
-            Console.WriteLine($"Tu resultado: {num1} / {num2} = " + (num1 / num2)); // el programa divide
-            break;
-    }
-    Console.Write("Apreta cualquier tecla y tocar enter para detener el programa"); // el usuario cierra el programar
-    Console.ReadKey();
-  }
-}
+```python
+# Dados los enteros e,k,n ingresados por el usuario mostrar por pantalla todos los valores enteros entre e y k (inclusive) que sean divisible por n
+e:int= int(input("Ingrese un numero entero:"))
+k:int= int(input("Ingrese otro numero entero:"))
+n:int= int(input("Ingrese el ultimo numero entero:"))
+j:str
+for j in range(e, k + 1):
+    if j % n == 0:
+      print(i)
 ```
 
 ## **Tercer Ejercicio**
