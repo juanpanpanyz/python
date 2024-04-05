@@ -1,4 +1,4 @@
-# Guia  1  NO SE COPIEN VAGOS
+# Guia  PYTHON  NO SE COPIEN VAGOS
 
 ### **Alumno:** Juan Baader
 
