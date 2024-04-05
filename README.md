@@ -1,4 +1,4 @@
-# Guia  PYTHON  NO SE COPIEN VAGOS
+# Guia  de Programación de Pyhon  NO SE COPIEN VAGOS
 
 ### **Alumno:** Juan Baader
 
