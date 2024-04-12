@@ -12,18 +12,6 @@
 
 <br>
 
-## **Tarea**
-
-```python
-# A) Dada una lista lis=[1,2,3,4,5] crea una nueva lista por cada elemento x de lis tenga x*x en la lista nueva
-from typing import List
-lis1: List[List[int]]=[[1,2,3,4,5]]
-b: List[List[int]] = lis1
-for j in range(len(b)):
-  if j % 2 == 0:
-    print(j)
-```
-
 ## **Primer Ejercicio**
 
 ```python
@@ -87,6 +75,23 @@ print("El número más chico es:", promedio)
 
 ```python
 # Escribir una función que tome una lista de números y devuelva el mayor número que no sea divisible por ningún otro número de la lista. Si la lista está vacía, devolver 0.
+from typing import List
+
+lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+if not lista_numeros:
+  resultado = 0
+else:
+  max_no_divisible = 0
+  for num in lista_numeros:
+      es_divisible = False
+      for otro_num in lista_numeros:
+          if num != otro_num and otro_num != 0 and num % otro_num == 0:
+              es_divisible = True
+              break
+      if not es_divisible and num > max_no_divisible:
+          max_no_divisible = num
+  resultado = max_no_divisible
+  print("El mayor número no divisible por ningún otro número de la lista es:", resultado)
 ```
 
 ## **Sexto Ejercicio**
