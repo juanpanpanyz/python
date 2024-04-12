@@ -56,29 +56,47 @@ print("El número más grande es:", mas_grande)
 ## **Tercer Ejercicio**
 
 ```python
+# Escribir una función que tome una lista de números y devuelva el numero mas chico. Si la lista está vacía, devolver 0.
+from typing import List
 
+lista_original = [1, 2, 3, 4, 5]
+if not lista_original:
+    mas_chico = 0
+else:
+    mas_chico = min(lista_original)
+print("El número más chico es:", mas_chico)
 ```
 
 ## **Cuarto Ejercicio**
 
 ```python
+# Escribir una función que tome una lista de números y devuelva el promedio de los números. Si la lista está vacía, devolver 0.
+import numpy as np
 
+from typing import List
+
+lista_original = [1, 2, 3, 4, 5]
+if not lista_original:
+    promedio = 0
+else:
+    promedio = np.mean(lista_original)
+print("El número más chico es:", promedio)
 ```
 
 ## **Quinto Ejercicio**
 
 ```python
-
+# Escribir una función que tome una lista de números y devuelva el mayor número que no sea divisible por ningún otro número de la lista. Si la lista está vacía, devolver 0.
 ```
 
 ## **Sexto Ejercicio**
 
 ```python
- 
+# Escribir una función que tome una lista de listas de la forma [[1, 2, 3], [4, 5, 6], [7, 8, 9]] y devuelva una lista con los números de todas las listas: [1, 2, 3, 4, 5, 6, 7, 8, 9]. Si la lista está vacía, devolver una lista vacía. Bonus: Resolver con una comprensión de listas.
 ```
 
 ## **Septimo Ejercicio**
 
 ```python
-
+# Escribir una función que tome una lista de listas de la forma [[1, 2, 3], [4, 5, 6], [7, 8, 9]] y devuelva una lista con el mayor numero de cada sublista: [3, 6, 9]. Bonus: Resolver con una comprensión de listas.
 ```
