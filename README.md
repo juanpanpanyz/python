@@ -10,6 +10,8 @@
 
 [Link a Github](https://github.com/juanpanpanyz/python)
 
+[Guia]([https://github.com/juanpanpanyz/python](https://github.com/IgnacioPardo/Tecnologias_Exponenciales_2024/tree/main/Ejercicios#ejercicio-1))
+
 <br>
 
 ## **Primer Ejercicio**
