@@ -11,6 +11,17 @@
 [Link a Github](https://github.com/juanpanpanyz/python)
 
 <br>
+## **Tarea**
+
+```python
+# A) Dada una lista lis=[1,2,3,4,5] crea una nueva lista por cada elemento x de lis tenga x*x en la lista nueva
+from typing import List
+lis1: List[List[int]]=[[1,2,3,4,5]]
+b: List[List[int]] = lis1
+for j in range(len(b)):
+  if j % 2 == 0:
+    print(j)
+```
 
 ## **Primer Ejercicio**
 
