@@ -30,7 +30,15 @@ print("Números pares:", pares)
 ## **Segundo Ejercicio**
 
 ```python
+# Escribir una función que tome una lista de números y devuelva el numero mas grande. Si la lista está vacía, devolver 0.
+from typing import List
 
+lista_original = [1, 2, 3, 4, 5]
+if not lista_original:
+    mas_grande = 0
+else:
+    mas_grande = max(lista_original)
+print("El número más grande es:", mas_grande)
 ```
 
 ## **Tercer Ejercicio**
