@@ -16,25 +16,21 @@
 
 ```python
 
-# Teniendo en una variable el nombre de una persona, contar la longitud en caracterres del nombre y mostrarlo en pantalla
-contador=0
-nombre="Hola 4B"
-for i in nombre:
-  contador = contador + 1
-print (contador)
+# Escribir una función que reciba una lista de números y devuelva una lista con los números pares.
+from typing import List
+
+lista_original = [1, 2, 3, 4, 5]
+pares = []
+for num in lista_original:
+    if num % 2 == 0:
+        pares.append(num)
+print("Números pares:", pares)
 ```
 
 ## **Segundo Ejercicio**
 
 ```python
-# Dados los enteros e,k,n ingresados por el usuario mostrar por pantalla todos los valores enteros entre l y k (inclusive) que sean divisible por n
-l:int= int(input("Ingrese un numero entero:"))
-k:int= int(input("Ingrese otro numero entero:"))
-n:int= int(input("Ingrese el ultimo numero entero:"))
-j:int
-for j in range(l, k + 1):
-    if j % n == 0:
-      print(j)
+
 ```
 
 ## **Tercer Ejercicio**
