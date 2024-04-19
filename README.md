@@ -15,7 +15,7 @@
 <br>
 
 ## **Batalla Naval**
-
+[Batalla Naval Sin Bonus (replit)](https://replit.com/@juanpanpanyz/PythonBatallaNavalSinBonus)
 ```python
 import random
 from typing import List
